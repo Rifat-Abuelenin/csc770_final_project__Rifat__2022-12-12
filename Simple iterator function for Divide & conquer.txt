@@ -1,0 +1,12 @@
+if (N < 2) return;
+		else {
+			// divide
+			stable_partition(begin, end, [&begin](auto& a) {//*iterator function ,begin return iterator to the beginnging of container 
+
+				//*Stable_partition  algorithm arranges the sequence defined by start and end such that all elements for which the predicate specified by pfn returns true come before those for which the predicate returns false.
+				//end return the last element of the container *//
+				return distance(&*begin, &a) % 2 == 0; 
+				
+					//conquer
+			FFT(begin, begin + N / 2);   // recurse even items
+			FFT(begin + N / 2, end);   // recurse odd  items
