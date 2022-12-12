@@ -49,10 +49,7 @@ communication as it will not make any difference in performance
 | parall performing one subtractionoperation and two adding operations Using Fast fourier transform using signals and frequency .
  
 
-# First Submission 2022-12-11 Notes
-1. I tested parallel/matrix_using_skeleton on hpc, and has output attached to the folder
-2. fast fourier transform library FFTW Not able to downloaded ,  only tested on Visual studio 
-5. util/ is just a testing playground also skeleton_test.cpp is also a playground code helps writing and testing framework code
+ 
 6.Basic fast fourier transform Writen with Complex datatype and vector with 2 dimensional array
 
 *Incomplete C
